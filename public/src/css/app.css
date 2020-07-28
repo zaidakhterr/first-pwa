@@ -1,4 +1,5 @@
-body, html {
+body,
+html {
   margin: 0;
   font-family: Arial, sans-serif;
 }
@@ -20,11 +21,13 @@ body, html {
   font-size: 1.8em;
 }
 
-.title, .course-feature {
+.title,
+.course-feature {
   opacity: 0;
 }
 
-.content, .start-over {
+.content,
+.start-over {
   margin: 5px auto;
   text-align: center;
   width: 80%;
@@ -33,13 +36,14 @@ body, html {
 
 .course-feature {
   padding: 2px;
-  -webkit-box-shadow: 2px 2px 1px #ccc;
-  -moz-box-shadow: 2px 2px 1px #ccc;
-  box-shadow: 2px 2px 1px #ccc;
+  -webkit-box-shadow: 2px 2px 15px #ccc;
+  -moz-box-shadow: 2px 2px 15px #ccc;
+  box-shadow: 2px 2px 15px #ccc;
+  border-radius: 3px;
 }
 
 .course-feature {
-  margin: 10px auto;
+  margin: 16px auto;
 }
 
 #installable {
@@ -73,11 +77,13 @@ body, html {
 .start-over button {
   background-color: #fa923f;
   border: 1px solid #fa923f;
-  -webkit-box-shadow: 2px 2px 2px #ccc;
-  -moz-box-shadow: 2px 2px 2px #ccc;
-  box-shadow: 2px 2px 2px #ccc;
-  padding: 5px;
+  -webkit-box-shadow: 2px 2px 10px #ccc;
+  -moz-box-shadow: 2px 2px 10px #ccc;
+  box-shadow: 2px 2px 10px #ccc;
+  padding: 8px 16px;
   color: white;
+  border-radius: 3px;
+  margin-top: 16px;
   opacity: 0;
   cursor: pointer;
   outline: none;
